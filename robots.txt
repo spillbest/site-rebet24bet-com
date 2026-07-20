@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rebet24bet.com/sitemap.xml

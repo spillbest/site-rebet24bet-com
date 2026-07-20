@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rebet24 Casinò e Scommesse Online | Bonus, Slot e Live</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="description" content="Rebet24 (rebet 24): casinò online e scommesse sportive su piattaforma E-PLAY24 con concessione ADM. Bonus di benvenuto, slot, casinò live, poker e app mobile.">
+<link rel="alternate" hreflang="it-it" href="https://rebet24bet.com/">
+<link rel="alternate" hreflang="x-default" href="https://rebet24bet.com/">
+<link rel="canonical" href="https://rebet24bet.com/">
+
+<!-- IMG: postere slot reali → assets/casino/ (scaricare via browser, vedi download_in_browser.js) -->
+<!-- AFFILIATE: CTA disattivati ("/referral-link"). Inserisci il link reale nella const AFF. -->
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.subTop{background:linear-gradient(120deg,#0e1c33,#14203a);border-bottom:1px solid var(--line)}
+.crumbs{font-size:12px;color:var(--mut);padding:14px 0 0}.crumbs a{color:#aeb9d4}.crumbs b{color:var(--ink)}
+.subHero{padding:12px 0 18px}.subHero h1{color:var(--ink);font-size:30px;font-weight:800;line-height:1.2;max-width:820px}
+.clusterNav{background:var(--nav);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.clusterNavIn{display:flex;gap:6px 22px;flex-wrap:wrap;padding:12px 20px;font-size:14px}
+.clusterNav a{color:var(--mut);font-weight:700}.clusterNav a:hover{color:var(--ink)}.clusterNav a.on{color:var(--red)}
+.article{max-width:860px;padding:26px 0 10px}
+.article h2{font-size:22px;margin:26px 0 10px;color:var(--ink)}.article h3{font-size:17px;margin:18px 0 8px;color:var(--ink)}
+.article p{color:#c3cbdd;margin-bottom:13px;line-height:1.7}
+.article ul{margin:0 0 14px 20px}.article li{margin-bottom:6px;color:#c3cbdd}
+.article a{color:#6ea8ff;font-weight:600}
+.article .tbl{overflow-x:auto;margin:0 0 16px}
+.article table{width:100%;border-collapse:collapse;font-size:14px}
+.article th,.article td{border:1px solid var(--line);padding:9px 12px;text-align:left;color:#c3cbdd}
+.article th{background:var(--surface);color:var(--ink);font-weight:700}
+.article details.faq{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px;background:var(--surface)}
+.article details.faq summary{font-weight:700;cursor:pointer;color:var(--ink)}.article details.faq p{margin:8px 0 0}
+.ctaBox{background:linear-gradient(120deg,#14203a,#0e1c33);border:1px solid var(--line);border-radius:14px;padding:20px 24px;margin:22px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ctaBox b{color:var(--green)}.ctaBox .btn{background:var(--red);color:#fff;padding:11px 22px}
+.clusterFoot{display:flex;gap:8px 18px;flex-wrap:wrap;padding:18px 0;border-top:1px solid var(--line);font-size:13px;margin-top:20px}
+.clusterFoot a{color:#6ea8ff;font-weight:600}
+.appBox{background:linear-gradient(120deg,#14203a,#0e1c33);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:6px 0 24px}
+.appHead{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.appIco{width:64px;height:64px;border-radius:16px;background:#fff;padding:8px;flex:none;box-shadow:0 6px 18px rgba(0,0,0,.4)}
+.appMeta{flex:1;min-width:220px}
+.appName{font-size:20px;font-weight:800;color:var(--ink)}
+.appRate{font-size:13px;color:var(--green);margin:2px 0 12px}.appRate b{color:#ffc93c}
+.appBtns{display:flex;gap:10px;flex-wrap:wrap}
+.appBox .btn.appDl{background:var(--red);color:#fff;padding:11px 18px}
+.appBox .btn.appDl.ios{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.28)}
+.appSpec{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}
+.appSpec td{border-top:1px solid var(--line);padding:10px 4px;color:#c3cbdd}
+.appSpec td:first-child{color:var(--mut);width:42%}
+.reviews{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 20px}
+.rvw{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.rvw-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;gap:8px}
+.rvw-n{font-weight:700;color:var(--ink)}.rvw-s{color:#ffc93c;font-size:13px;letter-spacing:1px;white-space:nowrap}
+.rvw-t{color:#c3cbdd;font-size:14px;margin:0;line-height:1.6}
+.stars{color:#ffc93c;letter-spacing:1px;white-space:nowrap}
+.promoWrap{margin:8px 0 26px}
+.promoGroupT{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);font-weight:800;margin:16px 0 10px}
+.promoGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.promoTile{display:block;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--surface);transition:.15s}
+.promoTile:hover{transform:translateY(-2px);border-color:var(--red);box-shadow:0 8px 22px rgba(0,0,0,.45)}
+.promoTile img{display:block;width:100%;height:auto}
+@media(max-width:840px){.promoGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.promoGrid{grid-template-columns:1fr}}
+.article blockquote.note{background:rgba(232,36,45,.09);border-left:3px solid var(--red);border-radius:0 10px 10px 0;padding:12px 16px 12px 18px;margin:0 0 16px}
+.article blockquote.note>*:first-child{margin-top:0}.article blockquote.note p{margin:0 0 6px;color:#d5dcec}.article blockquote.note ul{margin:6px 0 0 18px}
+@media(max-width:640px){.reviews{grid-template-columns:1fr}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Rebet24", "url": "https://rebet24bet.com/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Rebet24", "url": "https://rebet24bet.com/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rebet24bet.com/"}]}</script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="topbar">
+  <div class="topbar__in">
+    <button class="burger" id="burger" type="button" aria-label="Menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line></svg>
+    </button>
+    <a class="logo" data-aff href="https://api.rebet24bet.com/login" title="Rebet24"><span class="logo__txt">REBET</span><span class="logo__num">24</span></a>
+    <nav class="nav">
+      <a class="nav__item" data-aff href="https://api.rebet24bet.com/login">Sport</a>
+      <a class="nav__item" data-aff href="https://api.rebet24bet.com/login">Live</a>
+      <a class="nav__item nav__item--active" data-aff href="https://api.rebet24bet.com/login">Casinò</a>
+      <a class="nav__item" data-aff href="https://api.rebet24bet.com/login">Casinò Live</a>
+      <a class="nav__item" data-aff href="https://api.rebet24bet.com/login">Poker</a>
+      <a class="nav__item" data-aff href="https://api.rebet24bet.com/login">Altri giochi</a>
+      <a class="nav__item nav__item--promo" data-aff href="https://api.rebet24bet.com/login">Promozioni<span class="badge-count">26</span></a>
+    </nav>
+    <div class="topbar__right">
+      
+      
+      <a class="ic-btn ic-btn--hide-m" data-aff href="https://api.rebet24bet.com/login" aria-label="Impostazioni"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.8"></circle><path d="M19 12a7 7 0 00-.1-1.2l2-1.5-2-3.4-2.3 1a7 7 0 00-2-1.2L16.2 1h-4l-.4 2.7a7 7 0 00-2 1.2l-2.3-1-2 3.4 2 1.5A7 7 0 005 12c0 .4 0 .8.1 1.2l-2 1.5 2 3.4 2.3-1a7 7 0 002 1.2l.4 2.7h4l.4-2.7a7 7 0 002-1.2l2.3 1 2-3.4-2-1.5c.1-.4.1-.8.1-1.2z" stroke="currentColor" stroke-width="1.4"></path></svg></a>
+      <div class="topbar__spacer"></div>
+      <a class="btn btn--login" data-aff href="https://api.rebet24bet.com/login">Login</a>
+      <a class="btn btn--reg" data-aff href="https://api.rebet24bet.com/login">Registrati</a>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE DRAWER -->
+<div class="drawer-ov" id="drawerOv" hidden></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer__head"><span class="logo"><span class="logo__txt">REBET</span><span class="logo__num">24</span></span>
+    <button class="drawer__close" id="drawerClose" type="button" aria-label="Chiudi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line></svg></button>
+  </div>
+  <nav class="drawer__nav">
+    <a class="drawer__item" data-aff href="https://api.rebet24bet.com/login">Sport</a>
+    <a class="drawer__item" data-aff href="https://api.rebet24bet.com/login">Live</a>
+    <a class="drawer__item drawer__item--active" data-aff href="https://api.rebet24bet.com/login">Casinò</a>
+    <a class="drawer__item" data-aff href="https://api.rebet24bet.com/login">Casinò Live</a>
+    <a class="drawer__item" data-aff href="https://api.rebet24bet.com/login">Poker</a>
+    <a class="drawer__item" data-aff href="https://api.rebet24bet.com/login">Altri giochi</a>
+    <a class="drawer__item" data-aff href="https://api.rebet24bet.com/login">Promozioni</a>
+  </nav>
+  <div class="drawer__cta">
+    <a class="btn btn--login" data-aff href="https://api.rebet24bet.com/login">Login</a>
+    <a class="btn btn--reg" data-aff href="https://api.rebet24bet.com/login">Registrati</a>
+  </div>
+</aside>
+
+<main class="wrap">
+
+  <!-- HERO CAROUSEL -->
+  <section class="hero">
+    <div class="hero__track" id="hero"></div>
+  </section>
+
+  <!-- SITE SECTIONS -->
+  <section class="sections">
+    <a class="sect sect--1" data-aff href="https://api.rebet24bet.com/login"><h2>Sport</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"></circle><path d="M12 3l2.6 2-1 3.2H10.4l-1-3.2L12 3zM4.5 9.5L7 11l-.8 3-2.5.2a9 9 0 01.8-4.7zM7.5 18.5L9 16.2h6l1.5 2.3a9 9 0 01-9 0zM19.5 9.5a9 9 0 01.8 4.7l-2.5-.2-.8-3 2.5-1.5z" fill="currentColor"></path></svg></a>
+    <a class="sect sect--2" data-aff href="https://api.rebet24bet.com/login"><h2>Sport Live</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><circle cx="12" cy="12" r="2.5" fill="currentColor"></circle><path d="M7 7a7 7 0 000 10M17 7a7 7 0 010 10M4 4a11 11 0 000 16M20 4a11 11 0 010 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></a>
+    <a class="sect sect--3" data-aff href="https://api.rebet24bet.com/login"><h2>Casinò</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.8"></rect><circle cx="8.5" cy="8.5" r="1.4" fill="currentColor"></circle><circle cx="15.5" cy="15.5" r="1.4" fill="currentColor"></circle><circle cx="12" cy="12" r="1.4" fill="currentColor"></circle></svg></a>
+    <a class="sect sect--4" data-aff href="https://api.rebet24bet.com/login"><h2>Casinò Live</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><path d="M12 4a4 4 0 110 8 4 4 0 010-8z" stroke="currentColor" stroke-width="1.8"></path><path d="M4 21a8 8 0 0116 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></a>
+  </section>
+
+  <!-- H1 + LEAD -->
+  <div class="intro">
+    <h1>Rebet24: casinò online e scommesse su un'unica piattaforma</h1>
+    <p>Rebet 24 riunisce slot machine, casinò live, poker e scommesse sportive sulla tecnologia E-PLAY24, operatore con concessione ADM. Qui trovi i giochi più popolari del momento, i tavoli con dealer reali in streaming e le quote sui principali campionati di calcio, tennis e basket. Registrazione in pochi minuti e bonus di benvenuto sia sul casinò che sullo sport.</p>
+  </div>
+
+  <!-- TOP 10 -->
+  <section class="row">
+    <div class="row__head">
+      <h3 class="row__title">Top 10 casinò <small>(11 giochi)</small></h3>
+      <div class="row__nav"><a class="btn btn--ghost btn--sm" data-aff href="https://api.rebet24bet.com/login">Vedi tutti</a></div>
+    </div>
+    <div class="tiles" id="g-top"></div>
+  </section>
+
+  <!-- SLOT POPOLARI -->
+  <section class="row">
+    <div class="row__head">
+      <h3 class="row__title">Slot popolari <small>(6 giochi)</small></h3>
+      <div class="row__nav"><a class="btn btn--ghost btn--sm" data-aff href="https://api.rebet24bet.com/login">Vedi tutti</a></div>
+    </div>
+    <div class="tiles" id="g-slot"></div>
+  </section>
+
+  <!-- PROMOZIONI -->
+  <section class="row">
+    <div class="row__head">
+      <h3 class="row__title"><span class="promo-dot"></span>Promozioni</h3>
+      <div class="row__nav"><a class="btn btn--ghost btn--sm" data-aff href="https://api.rebet24bet.com/login">Vedi tutte</a></div>
+    </div>
+    <div class="promos" id="promos"></div>
+  </section>
+
+  <!-- SEO -->
+  <article class="seo">
+<h2>Cos&#x27;è Rebet24?</h2>
+<p>Rebet24 mette casino online e scommesse sportive sotto lo stesso tetto: slot, giochi da tavolo e quote sugli eventi, tutto in un posto solo. Per chi gioca dall&#x27;Italia, però, serve cautela. Il dominio collegato all&#x27;operatore è <b>rebet24.it.com</b>, e quella forma sa di sito internazionale, non di operatore ADM/AAMS italiano — almeno finché licenza e società titolare non saltano fuori nero su bianco.</p>
+<p>Occhio anche alle varianti <b>rebet24.it</b> e <b>rebet24. it</b>: non risultano confermate come domini ufficiali e possono spedirti su risultati non verificati. Prima di registrarti, controlla sempre il dominio su cui stai navigando, i termini aggiornati, i limiti di gioco e le condizioni di prelievo (queste ultime le trovi nelle sezioni Terms / Payments del sito).</p>
+<h2>Rebet24 in breve</h2>
+<p>I dati qui sotto vanno letti come punti da verificare. Mentre scrivo questa recensione (2026) molte voci non risultano confermate in fonti pubbliche, quindi controlla tutto direttamente al login.</p>
+<div class="tbl"><table><thead><tr><th>Voce</th><th>Dettagli</th></tr></thead><tbody><tr><td>bonus</td><td>Da verificare nella sezione Bonus: indicare importi, giri gratis o rollover senza condizioni aggiornate sarebbe scorretto</td></tr><tr><td>casino</td><td>Slot, giochi da tavolo e possibili titoli live, da controllare nel catalogo reale disponibile al login</td></tr><tr><td>scommesse</td><td>Sezione sportiva con focus su calcio e principali eventi internazionali, da verificare per mercati e quote</td></tr><tr><td>deposito minimo</td><td>Non confermato pubblicamente: controlla la cassa prima di versare in €</td></tr><tr><td>metodi di pagamento</td><td>Da verificare nella sezione Payments: carte, bonifico, e-wallet o altri sistemi possono cambiare in base al Paese e all&#x27;account</td></tr><tr><td>prelievi</td><td>Tempi, limiti e commissioni non confermati: verifica KYC, importi massimi e causali nei Terms prima di depositare</td></tr><tr><td>app</td><td>App nativa non confermata; probabile accesso da browser mobile se il sito è responsive</td></tr><tr><td>lingua italiana</td><td>Presenza dell&#x27;italiano da verificare nell&#x27;interfaccia e nell&#x27;assistenza</td></tr><tr><td>licenza</td><td>Licenza ADM/AAMS non trovata in fonti pubbliche; trattala come piattaforma internazionale/non-AAMS fino a prova contraria</td></tr></tbody></table></div>
+<h2>Casino e scommesse</h2>
+<p>Per molti il casino è il punto di partenza. Chi cerca un casinò online vuole slot, jackpot, roulette, blackjack e magari un tavolo live con croupier vero. Ma il numero di giochi conta poco da solo. Guarda chi li fornisce, se l&#x27;RTP è dichiarato e se i titoli si aprono dall&#x27;Italia senza blocchi.</p>
+<p>Sul fronte sportivo, la sezione scommesse dovrebbe coprire ciò che si gioca davvero: Serie A, Champions League, Europa League, tennis, basket e i grandi eventi internazionali. Per il pubblico italiano il calcio è il banco di prova. Contano mercati come 1X2, doppia chance, over/under, handicap, marcatori e live betting — il resto è contorno.</p>
+<p>Il poker, invece, lo guarderei con più diffidenza. Prima di sognare tornei, cash game o poker live, verifica un paio di segnali concreti:</p>
+<ul><li>se la room è davvero attiva e raggiungibile al login;</li><li>se ci sono sia cash game sia tornei programmati;</li><li>la liquidità ai tavoli, cioè quanti giocatori reali trovi nelle fasce orarie di punta;</li><li>la disponibilità mobile, da browser o da eventuale client;</li><li>eventuali limitazioni per chi si collega dall&#x27;Italia.</li></ul>
+<p>Senza queste conferme, dare per scontata una poker room completa è un azzardo.</p>
+<h2>Bonus</h2>
+<p>Il bonus di benvenuto è tra le prime cose che si cercano. Ma inventare cifre qui non serve a nessuno. Importo, percentuale sul primo deposito, eventuali giri gratis, rollover e limiti di puntata vanno letti direttamente nelle promozioni aggiornate al 2026.</p>
+<p>Prima di accettare qualsiasi offerta, controlla questi punti:</p>
+<ul><li><b>rollover:</b> quante volte va rigiocato l&#x27;importo prima di poter prelevare;</li><li><b>giochi che contribuiscono:</b> una slot può valere il 100%, mentre roulette o blackjack spesso pesano molto meno o non contano per niente;</li><li><b>limite di puntata durante il bonus:</b> sforarlo può mandare in fumo le vincite promozionali;</li><li><b>tetto massimo di conversione</b> in saldo reale.</li></ul>
+<p>Sul bonus senza deposito, non darlo per scontato. Se non è visibile e attivo nei termini ufficiali, consideralo non disponibile. E diffida di pagine o post social che promettono credito gratis senza mostrare una sola condizione reale.</p>
+<h2>Rebet24 è affidabile?</h2>
+<p>Domanda legittima, soprattutto per chi gioca dall&#x27;Italia. Finché non spunta una prova chiara di licenza ADM/AAMS — e oggi tra le fonti pubbliche non c&#x27;è — la piattaforma va trattata come operatore internazionale. Questo non vuol dire automaticamente &quot;truffa&quot;. Vuol dire che cambia il livello di guardia: un sito non ADM non ti copre con le stesse tutele del sistema regolato italiano.</p>
+<p>Per farti un&#x27;idea concreta, controlla soprattutto:</p>
+<ul><li>chi è la società titolare, quale licenza viene indicata e dove sono pubblicati termini e privacy policy;</li><li>come funziona la verifica del conto (KYC) e quali documenti chiedono;</li><li>limiti e tempi di prelievo, eventuali commissioni e le causali che possono bloccarti un pagamento;</li><li>la presenza del lucchetto HTTPS/SSL — utile, ma non basta: protegge la connessione, non garantisce trasparenza su pagamenti e reclami.</li></ul>
+<p>Poi c&#x27;è l&#x27;assistenza. Una chat live veloce, email chiare e risposte in italiano sono punti a favore. Se invece su società, licenza e pagamenti regna il silenzio, vai di depositi minimi o lascia perdere.</p>
+<h2>App e accesso</h2>
+<p>Un&#x27;app nativa per iOS o Android non risulta confermata da fonti affidabili. Quindi, prima di cercarla sugli store, verifica se l&#x27;accesso mobile passa dal sito responsive via browser. In pratica: dovresti poter aprire la piattaforma da smartphone, fare login, depositare, piazzare la tua bolletta e giocare al casino senza installare niente.</p>
+<p>Per l&#x27;accesso, usa sempre il dominio giusto e attento ai refusi. Ricerche come *rebet24.it* o *rebet24. it* possono portarti su risultati non ufficiali o poco chiari. Controlla con calma prima di digitare email, password o dati di pagamento. Attiva l&#x27;autenticazione a due fattori se c&#x27;è, e non salvare le credenziali su dispositivi condivisi.</p>
+<h2>Vantaggi e svantaggi</h2>
+<p><b>Vantaggi</b></p>
+<ul><li>Casino e scommesse sportive potenzialmente sotto un unico conto.</li><li>Il calcio può diventare una sezione interessante se quote e mercati live reggono il confronto.</li><li>Accesso mobile comodo, a patto che il sito sia ottimizzato per smartphone.</li><li>Possibili promozioni su deposito, slot o eventi sportivi.</li><li>Interfaccia in italiano da verificare: utile per leggere termini e bonus senza traduzioni automatiche.</li></ul>
+<p><b>Svantaggi</b></p>
+<ul><li>Licenza ADM/AAMS non confermata: per chi gioca dall&#x27;Italia è il nodo principale.</li><li>Bonus, deposito minimo e metodi di pagamento non vanno dati per certi senza verifica.</li><li>Tempi, limiti e commissioni di prelievo non confermati: da controllare prima di versare cifre serie.</li><li>App nativa non confermata.</li><li>Se il sito è internazionale, le regole possono divergere da quelle degli operatori italiani regolati.</li></ul>
+<h2>Domande frequenti</h2>
+<h3>Cos&#x27;è Rebet24?</h3>
+<p>Una piattaforma di casino e scommesse online. Per il mercato italiano va presa con le pinze, perché la licenza ADM/AAMS non risulta confermata e il sito sembra muoversi nell&#x27;area degli operatori internazionali.</p>
+<h3>Rebet24 è affidabile?</h3>
+<p>Lo capisci solo dopo aver controllato operatore, licenza, termini, metodi di pagamento, tempi di prelievo e sicurezza del sito. Senza conferma ADM/AAMS, meglio andarci piano e non depositare somme alte.</p>
+<h3>Rebet24 ha un bonus?</h3>
+<p>Potrebbe offrire un bonus di benvenuto o promozioni periodiche, ma importi, giri gratis e rollover vanno verificati nelle condizioni aggiornate. Indicare cifre senza conferma ufficiale sarebbe scorretto.</p>
+<h3>C&#x27;è l&#x27;app Rebet24?</h3>
+<p>Un&#x27;app nativa non è confermata. L&#x27;accesso potrebbe avvenire da browser mobile, se il sito è responsive. Prima di installare qualsiasi app, controlla che arrivi da fonte ufficiale.</p>
+<p>Il gioco può causare dipendenza patologica. Gioca responsabilmente.</p>
+<div class="clusterFoot"><a href="/">Home</a><a href="/bonus/">Bonus</a><a href="/recensioni/">Recensioni</a><a href="/accesso/">Accesso</a><a href="/app/">App</a></div>
+</article>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fwrap">
+    <nav class="cluster-foot"><a href="/">Home</a><a href="/bonus/">Bonus</a><a href="/recensioni/">Recensioni</a><a href="/accesso/">Accesso</a><a href="/app/">App</a></nav>
+    <div class="fprov"><span>Provider:</span> Playtech · Pragmatic Play · Play'n GO · Evolution · GreenTube · Spribe · Playson</div>
+    <div class="flow"><span class="age">18+</span> Rebet24 opera sulla piattaforma E-PLAY24 con concessione ADM. Gioca responsabilmente. © 2026 rebet24.it.com</div>
+  </div>
+</footer>
+
+<script>
+// ⚠ Inserisci il link affiliato reale — ora CTA disattivati ("/referral-link").
+const AFF = '#';
+
+// Drawer
+(function(){
+  const ov=document.getElementById('drawerOv'),dr=document.getElementById('drawer'),
+        btn=document.getElementById('burger'),cl=document.getElementById('drawerClose');
+  function open(){dr.classList.add('open');ov.hidden=false;requestAnimationFrame(()=>ov.classList.add('show'));dr.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';}
+  function close(){dr.classList.remove('open');ov.classList.remove('show');dr.setAttribute('aria-hidden','true');document.body.style.overflow='';setTimeout(()=>ov.hidden=true,250);}
+  btn&&btn.addEventListener('click',open);cl&&cl.addEventListener('click',close);ov&&ov.addEventListener('click',close);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});
+})();
+
+// Host immagini reali (piattaforma E-PLAY24). Le immagini sono in hotlink:
+// se il CDN blocca l'hotlink da un altro dominio, scaricarle in locale (download_in_browser.js).
+const C = 'assets/casino/';
+
+// HERO — banner reali (assets/casino) + fallback CSS sotto. [file, kick, titoloHTML, cta, classe]
+const HERO = [
+  ['20260626134054220_8x7Deplay24.jpg','Bonus di benvenuto Sport','Scommetti <span class="g">10€</span><br>Ricevi <span class="g">30€</span>','Registrati','s--sport'],
+  ['20260306153717927_benvenutocasinoMeplay1.jpg','Bonus di benvenuto Casinò','100% fino a <span class="g">1.000€</span><br>+ 200 giri gratis','Scopri di più','s--casino'],
+  ['20260626170120744_ChisegnavinceDeplay24.jpg','Promo Sport','Chi segna<br><span class="g">vince</span>','Gioca ora!','s--sport'],
+  ['20260610143329049_ruotamundialDeplay.jpg','Mundial','La ruota<br><span class="g">Mundial</span>','Gioca ora!','s--vip'],
+];
+document.getElementById('hero').innerHTML = HERO.map(h=>`<a class="slide ${h[4]}" data-aff href="/referral-link"><div class="slide__body"><span class="slide__kick">${h[1]}</span><h2 class="slide__title">${h[2]}</h2><span class="slide__cta btn btn--reg">${h[3]}</span></div><img loading="lazy" src="${C+h[0]}" alt="" onerror="this.remove()"></a>`).join('');
+
+// PROMOZIONI — immagini reali (assets/casino) + fallback CSS. [file, tag, titoloHTML, classe]
+const PROMOS = [
+  ['20260306153717927_benvenutocasinoMeplay1.jpg','Casinò','Bonus benvenuto<br>fino a 1.000€','p--a'],
+  ['20260528121341328_Welcome-Bonus-SportMeplay24.jpg','Sport','Scommetti 10€<br>ricevi 30€','p--b'],
+  ['20260616110637813_ruotamundialMeplay.jpg','Slot','200 giri gratis<br>al 1° deposito','p--c'],
+  ['20260626160712919_ChisegnavinceMeplay24.jpg','Sport','Chi segna<br>vince','p--b'],
+  ['20260624100457217_BonusGamesGlobalMeplay24.jpg','VIP','Cashback<br>settimanale','p--d'],
+  ['20260605171047607_World-Cup-Drops-EPLAY-1.jpg','Casinò','World Cup<br>Drops','p--a'],
+  ['20260615172027882_PromoLiveMonopolyRouletteMEPLAY.jpg','Live','Monopoly<br>Roulette','p--e'],
+];
+document.getElementById('promos').innerHTML = PROMOS.map(p=>`<a class="promo ${p[3]}" data-aff href="/referral-link"><span class="promo__tag">${p[1]}</span><strong>${p[2]}</strong><img loading="lazy" src="${C+p[0]}" alt="" onerror="this.remove()"></a>`).join('');
+
+// GIOCHI — postere slot reali. [nome, path, badge]
+const TOP = [
+  ['Monopoly Roulette',C+'20260605113841126_ImgThumb.jpg','nuovo'],
+  ['Live Blackjack',C+'20210507114556196_BlackjackLobby.jpg',''],
+  ['Crazy Time',C+'20240910133700976_thumb.jpg',''],
+  ['Monopoly Live',C+'20191008161823025_thumb.jpg',''],
+  ['Lightning Roulette',C+'20231018172128481_1EAF9357-4C8A-4FCC-A50E-E858F22595D4.png',''],
+  ['Gates of Olympus 1000',C+'20260304122427211_20240205143629573GatesofOlympus1000.jpg',''],
+  ['Aviator',C+'20230405164126787_thumb.gif',''],
+  ['Sweet Bonanza',C+'20260304124922139_20220729181557618SweetBonanza.jpg',''],
+  ['Book of Ra Deluxe',C+'20190723105441439_thumb.jpg',''],
+  ['Legacy of Dead',C+'20210509095413408_thumb.jpg',''],
+  ['Thunder Coins: Hold and Win',C+'20240624153042859_thumb.jpg','nuovo'],
+];
+const SLOT = [
+  ['Aviator',C+'20230405164126787_thumb.gif',''],
+  ['Gates of Olympus 1000',C+'20260304122427211_20240205143629573GatesofOlympus1000.jpg',''],
+  ['Book of Ra Deluxe',C+'20190723105441439_thumb.jpg',''],
+  ['Sweet Bonanza',C+'20260304124922139_20220729181557618SweetBonanza.jpg',''],
+  ['Legacy of Dead',C+'20210509095413408_thumb.jpg',''],
+  ['Thunder Coins: Hold and Win',C+'20240624153042859_thumb.jpg',''],
+];
+function badge(b){return b==='nuovo'?'<span class="t-badge">Novità</span>':'';}
+function tile(g){
+  return `<a class="tile" data-aff href="/referral-link" aria-label="${g[0]}">
+    <div class="tile__img"><img loading="lazy" src="${g[1]}" alt="${g[0]}" onerror="this.style.display='none';this.parentNode.classList.add('tile__img--ph')"><span class="tile__ph">${g[0]}</span>${badge(g[2])}
+      <span class="tile__play"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+    </div>
+    <div class="tile__name">${g[0]}</div>
+  </a>`;
+}
+document.getElementById('g-top').innerHTML = TOP.map(tile).join('');
+document.getElementById('g-slot').innerHTML = SLOT.map(tile).join('');
+</script>
+</body>
+</html>
